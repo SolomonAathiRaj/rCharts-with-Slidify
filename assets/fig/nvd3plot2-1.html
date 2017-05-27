@@ -1,0 +1,494 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css'>
+    
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='//d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js' type='text/javascript'></script>
+    <script src='//nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart259071f91782' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart259071f91782()
+    });
+    function drawchart259071f91782(){  
+      var opts = {
+ "dom": "chart259071f91782",
+"width":    800,
+"height":    400,
+"x": "Item_Type",
+"y": "Number",
+"group": "Fat_Content",
+"type": "multiBarChart",
+"id": "chart259071f91782" 
+},
+        data = [
+ {
+ "Item_Type": "Baking Goods",
+"Fat_Content": "LF",
+"Number": 10 
+},
+{
+ "Item_Type": "Breads",
+"Fat_Content": "LF",
+"Number": 4 
+},
+{
+ "Item_Type": "Breakfast",
+"Fat_Content": "LF",
+"Number": 2 
+},
+{
+ "Item_Type": "Canned",
+"Fat_Content": "LF",
+"Number": 16 
+},
+{
+ "Item_Type": "Dairy",
+"Fat_Content": "LF",
+"Number": 13 
+},
+{
+ "Item_Type": "Frozen Foods",
+"Fat_Content": "LF",
+"Number": 17 
+},
+{
+ "Item_Type": "Fruits and Vegetables",
+"Fat_Content": "LF",
+"Number": 24 
+},
+{
+ "Item_Type": "Hard Drinks",
+"Fat_Content": "LF",
+"Number": 2 
+},
+{
+ "Item_Type": "Health and Hygiene",
+"Fat_Content": "LF",
+"Number": 14 
+},
+{
+ "Item_Type": "Household",
+"Fat_Content": "LF",
+"Number": 28 
+},
+{
+ "Item_Type": "Meat",
+"Fat_Content": "LF",
+"Number": 7 
+},
+{
+ "Item_Type": "Others",
+"Fat_Content": "LF",
+"Number": 6 
+},
+{
+ "Item_Type": "Seafood",
+"Fat_Content": "LF",
+"Number": 3 
+},
+{
+ "Item_Type": "Snack Foods",
+"Fat_Content": "LF",
+"Number": 12 
+},
+{
+ "Item_Type": "Soft Drinks",
+"Fat_Content": "LF",
+"Number": 13 
+},
+{
+ "Item_Type": "Starchy Foods",
+"Fat_Content": "LF",
+"Number": 6 
+},
+{
+ "Item_Type": "Baking Goods",
+"Fat_Content": "low fat",
+"Number": 3 
+},
+{
+ "Item_Type": "Breads",
+"Fat_Content": "low fat",
+"Number": 3 
+},
+{
+ "Item_Type": "Breakfast",
+"Fat_Content": "low fat",
+"Number": 0 
+},
+{
+ "Item_Type": "Canned",
+"Fat_Content": "low fat",
+"Number": 3 
+},
+{
+ "Item_Type": "Dairy",
+"Fat_Content": "low fat",
+"Number": 6 
+},
+{
+ "Item_Type": "Frozen Foods",
+"Fat_Content": "low fat",
+"Number": 3 
+},
+{
+ "Item_Type": "Fruits and Vegetables",
+"Fat_Content": "low fat",
+"Number": 3 
+},
+{
+ "Item_Type": "Hard Drinks",
+"Fat_Content": "low fat",
+"Number": 4 
+},
+{
+ "Item_Type": "Health and Hygiene",
+"Fat_Content": "low fat",
+"Number": 5 
+},
+{
+ "Item_Type": "Household",
+"Fat_Content": "low fat",
+"Number": 11 
+},
+{
+ "Item_Type": "Meat",
+"Fat_Content": "low fat",
+"Number": 0 
+},
+{
+ "Item_Type": "Others",
+"Fat_Content": "low fat",
+"Number": 0 
+},
+{
+ "Item_Type": "Seafood",
+"Fat_Content": "low fat",
+"Number": 0 
+},
+{
+ "Item_Type": "Snack Foods",
+"Fat_Content": "low fat",
+"Number": 8 
+},
+{
+ "Item_Type": "Soft Drinks",
+"Fat_Content": "low fat",
+"Number": 3 
+},
+{
+ "Item_Type": "Starchy Foods",
+"Fat_Content": "low fat",
+"Number": 1 
+},
+{
+ "Item_Type": "Baking Goods",
+"Fat_Content": "Low Fat",
+"Number": 158 
+},
+{
+ "Item_Type": "Breads",
+"Fat_Content": "Low Fat",
+"Number": 67 
+},
+{
+ "Item_Type": "Breakfast",
+"Fat_Content": "Low Fat",
+"Number": 18 
+},
+{
+ "Item_Type": "Canned",
+"Fat_Content": "Low Fat",
+"Number": 171 
+},
+{
+ "Item_Type": "Dairy",
+"Fat_Content": "Low Fat",
+"Number": 217 
+},
+{
+ "Item_Type": "Frozen Foods",
+"Fat_Content": "Low Fat",
+"Number": 220 
+},
+{
+ "Item_Type": "Fruits and Vegetables",
+"Fat_Content": "Low Fat",
+"Number": 318 
+},
+{
+ "Item_Type": "Hard Drinks",
+"Fat_Content": "Low Fat",
+"Number": 111 
+},
+{
+ "Item_Type": "Health and Hygiene",
+"Fat_Content": "Low Fat",
+"Number": 258 
+},
+{
+ "Item_Type": "Household",
+"Fat_Content": "Low Fat",
+"Number": 459 
+},
+{
+ "Item_Type": "Meat",
+"Fat_Content": "Low Fat",
+"Number": 84 
+},
+{
+ "Item_Type": "Others",
+"Fat_Content": "Low Fat",
+"Number": 85 
+},
+{
+ "Item_Type": "Seafood",
+"Fat_Content": "Low Fat",
+"Number": 16 
+},
+{
+ "Item_Type": "Snack Foods",
+"Fat_Content": "Low Fat",
+"Number": 360 
+},
+{
+ "Item_Type": "Soft Drinks",
+"Fat_Content": "Low Fat",
+"Number": 188 
+},
+{
+ "Item_Type": "Starchy Foods",
+"Fat_Content": "Low Fat",
+"Number": 44 
+},
+{
+ "Item_Type": "Baking Goods",
+"Fat_Content": "reg",
+"Number": 7 
+},
+{
+ "Item_Type": "Breads",
+"Fat_Content": "reg",
+"Number": 3 
+},
+{
+ "Item_Type": "Breakfast",
+"Fat_Content": "reg",
+"Number": 1 
+},
+{
+ "Item_Type": "Canned",
+"Fat_Content": "reg",
+"Number": 6 
+},
+{
+ "Item_Type": "Dairy",
+"Fat_Content": "reg",
+"Number": 4 
+},
+{
+ "Item_Type": "Frozen Foods",
+"Fat_Content": "reg",
+"Number": 10 
+},
+{
+ "Item_Type": "Fruits and Vegetables",
+"Fat_Content": "reg",
+"Number": 15 
+},
+{
+ "Item_Type": "Hard Drinks",
+"Fat_Content": "reg",
+"Number": 0 
+},
+{
+ "Item_Type": "Health and Hygiene",
+"Fat_Content": "reg",
+"Number": 0 
+},
+{
+ "Item_Type": "Household",
+"Fat_Content": "reg",
+"Number": 0 
+},
+{
+ "Item_Type": "Meat",
+"Fat_Content": "reg",
+"Number": 4 
+},
+{
+ "Item_Type": "Others",
+"Fat_Content": "reg",
+"Number": 0 
+},
+{
+ "Item_Type": "Seafood",
+"Fat_Content": "reg",
+"Number": 0 
+},
+{
+ "Item_Type": "Snack Foods",
+"Fat_Content": "reg",
+"Number": 17 
+},
+{
+ "Item_Type": "Soft Drinks",
+"Fat_Content": "reg",
+"Number": 1 
+},
+{
+ "Item_Type": "Starchy Foods",
+"Fat_Content": "reg",
+"Number": 3 
+},
+{
+ "Item_Type": "Baking Goods",
+"Fat_Content": "Regular",
+"Number": 173 
+},
+{
+ "Item_Type": "Breads",
+"Fat_Content": "Regular",
+"Number": 55 
+},
+{
+ "Item_Type": "Breakfast",
+"Fat_Content": "Regular",
+"Number": 37 
+},
+{
+ "Item_Type": "Canned",
+"Fat_Content": "Regular",
+"Number": 165 
+},
+{
+ "Item_Type": "Dairy",
+"Fat_Content": "Regular",
+"Number": 140 
+},
+{
+ "Item_Type": "Frozen Foods",
+"Fat_Content": "Regular",
+"Number": 227 
+},
+{
+ "Item_Type": "Fruits and Vegetables",
+"Fat_Content": "Regular",
+"Number": 310 
+},
+{
+ "Item_Type": "Hard Drinks",
+"Fat_Content": "Regular",
+"Number": 0 
+},
+{
+ "Item_Type": "Health and Hygiene",
+"Fat_Content": "Regular",
+"Number": 0 
+},
+{
+ "Item_Type": "Household",
+"Fat_Content": "Regular",
+"Number": 0 
+},
+{
+ "Item_Type": "Meat",
+"Fat_Content": "Regular",
+"Number": 126 
+},
+{
+ "Item_Type": "Others",
+"Fat_Content": "Regular",
+"Number": 0 
+},
+{
+ "Item_Type": "Seafood",
+"Fat_Content": "Regular",
+"Number": 14 
+},
+{
+ "Item_Type": "Snack Foods",
+"Fat_Content": "Regular",
+"Number": 259 
+},
+{
+ "Item_Type": "Soft Drinks",
+"Fat_Content": "Regular",
+"Number": 36 
+},
+{
+ "Item_Type": "Starchy Foods",
+"Fat_Content": "Regular",
+"Number": 33 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        
+          
+        
+
+        
+        
+        
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>
